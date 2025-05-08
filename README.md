@@ -14,7 +14,7 @@ Este repositorio contiene mis proyectos de la universidad desarrollados en C# us
    - Descripción: Calcula el IMC (Índice de Masa Corporal) ingresando el peso y la altura del usuario, y muestra el resultado con una categoría (bajo peso, normal, sobrepeso y obesidad).
 
 4. **¿Cuál número es mayor y cuál menor?**  
-   - Descripción: Compara dos números ingresados por el usuario y muestra cuál es el mayor y cuál es el menor.
+   - Descripción: Compara tres números ingresados por el usuario y muestra cuál es el mayor y cuál es el menor.
 
 5. **Hacer un listado**   
    - Descripción: Permite al usuario agregar elementos a una lista y mostrarlos en el formulario.
