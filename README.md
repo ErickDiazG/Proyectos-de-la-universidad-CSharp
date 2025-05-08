@@ -17,7 +17,7 @@ Este repositorio contiene mis proyectos de la universidad desarrollados en C# us
    - Descripción: Compara tres números ingresados por el usuario y muestra cuál es el mayor y cuál es el menor.
 
 5. **Hacer un listado**   
-   - Descripción: Permite al usuario agregar elementos a una lista y mostrarlos en el formulario.
+   - Descripción: Permite al usuario agregar elementos a una lista y mostrarlos.
 
 6. **Promedio de calificaciones**   
    - Descripción: Calcula el promedio de varias calificaciones ingresadas por el usuario y muestra si está aprobado o reprobado.
