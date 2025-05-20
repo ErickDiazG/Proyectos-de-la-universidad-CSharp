@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Act 12 Formulario de encuesta interactiva", "Act 12 Formulario de encuesta interactiva.csproj", "{A239FD17-1DD2-403F-90E7-FB237A458F23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A239FD17-1DD2-403F-90E7-FB237A458F23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A239FD17-1DD2-403F-90E7-FB237A458F23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A239FD17-1DD2-403F-90E7-FB237A458F23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A239FD17-1DD2-403F-90E7-FB237A458F23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B414E5D-5D2A-45FC-BE9B-5886B0FFEF02}
+	EndGlobalSection
+EndGlobal
