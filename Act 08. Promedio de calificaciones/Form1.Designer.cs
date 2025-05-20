@@ -54,7 +54,7 @@
             label1.Name = "label1";
             label1.Size = new Size(369, 31);
             label1.TabIndex = 0;
-            label1.Text = "Act 6. Promedio de calificaciones";
+            label1.Text = "Act 8. Promedio de calificaciones";
             // 
             // button1
             // 

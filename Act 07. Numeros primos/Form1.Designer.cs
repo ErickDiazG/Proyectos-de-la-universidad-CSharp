@@ -43,9 +43,9 @@
             label1.ForeColor = Color.Brown;
             label1.Location = new Point(268, 56);
             label1.Name = "label1";
-            label1.Size = new Size(191, 31);
+            label1.Size = new Size(258, 31);
             label1.TabIndex = 0;
-            label1.Text = "¿Numero primo?";
+            label1.Text = "Act 7. ¿Numero primo?";
             // 
             // button1
             // 

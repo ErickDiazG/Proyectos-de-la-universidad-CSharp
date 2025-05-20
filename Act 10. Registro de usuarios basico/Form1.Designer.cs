@@ -51,9 +51,9 @@
             label1.ForeColor = Color.Brown;
             label1.Location = new Point(176, 45);
             label1.Name = "label1";
-            label1.Size = new Size(471, 31);
+            label1.Size = new Size(503, 31);
             label1.TabIndex = 0;
-            label1.Text = "Act. Registro de usuarios con validaciones ";
+            label1.Text = "Act 10. Registro de usuarios con validaciones ";
             // 
             // label2
             // 

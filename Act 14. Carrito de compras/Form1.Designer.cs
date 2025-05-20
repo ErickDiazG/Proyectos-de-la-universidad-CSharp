@@ -1,4 +1,4 @@
-﻿namespace Act_7.__Numero_impar_o_par
+﻿namespace Act_8._Carrito_de_compras
 {
     partial class Form1
     {
@@ -28,60 +28,87 @@
         /// </summary>
         private void InitializeComponent()
         {
+            Carrito = new ListBox();
+            comboBox1 = new ComboBox();
             button1 = new Button();
+            button2 = new Button();
             label1 = new Label();
             textBox1 = new TextBox();
             label2 = new Label();
             label3 = new Label();
             SuspendLayout();
             // 
+            // Carrito
+            // 
+            Carrito.FormattingEnabled = true;
+            Carrito.Location = new Point(67, 151);
+            Carrito.Name = "Carrito";
+            Carrito.Size = new Size(253, 224);
+            Carrito.TabIndex = 0;
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(406, 151);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(333, 28);
+            comboBox1.TabIndex = 1;
+            // 
             // button1
             // 
-            button1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(234, 271);
+            button1.Location = new Point(406, 206);
             button1.Name = "button1";
-            button1.Size = new Size(249, 50);
-            button1.TabIndex = 0;
-            button1.Text = "¿Que sera?";
+            button1.Size = new Size(94, 29);
+            button1.TabIndex = 2;
+            button1.Text = "Agregar";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(645, 206);
+            button2.Name = "button2";
+            button2.Size = new Size(94, 29);
+            button2.TabIndex = 3;
+            button2.Text = "Calcular";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.Brown;
-            label1.Location = new Point(289, 48);
+            label1.Location = new Point(406, 324);
             label1.Name = "label1";
-            label1.Size = new Size(256, 31);
-            label1.TabIndex = 1;
-            label1.Text = "Act 7. ¿Es par o impar?";
+            label1.Size = new Size(154, 20);
+            label1.TabIndex = 4;
+            label1.Text = "Codigo de descuento:";
             // 
             // textBox1
             // 
-            textBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(420, 169);
+            textBox1.Location = new Point(614, 324);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(125, 34);
-            textBox1.TabIndex = 2;
+            textBox1.Size = new Size(125, 27);
+            textBox1.TabIndex = 5;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label2.Location = new Point(190, 169);
+            label2.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.Brown;
+            label2.Location = new Point(247, 58);
             label2.Name = "label2";
-            label2.Size = new Size(99, 28);
-            label2.TabIndex = 3;
-            label2.Text = "Numero: ";
+            label2.Size = new Size(370, 38);
+            label2.TabIndex = 6;
+            label2.Text = "Act 14. Carrito de compras";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(289, 370);
+            label3.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label3.Location = new Point(448, 399);
             label3.Name = "label3";
-            label3.Size = new Size(0, 20);
-            label3.TabIndex = 4;
+            label3.Size = new Size(0, 23);
+            label3.TabIndex = 7;
             // 
             // Form1
             // 
@@ -93,16 +120,23 @@
             Controls.Add(label2);
             Controls.Add(textBox1);
             Controls.Add(label1);
+            Controls.Add(button2);
             Controls.Add(button1);
+            Controls.Add(comboBox1);
+            Controls.Add(Carrito);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
+        private ListBox Carrito;
+        private ComboBox comboBox1;
         private Button button1;
+        private Button button2;
         private Label label1;
         private TextBox textBox1;
         private Label label2;
