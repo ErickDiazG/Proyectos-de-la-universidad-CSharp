@@ -214,7 +214,7 @@
             groupBox2.Controls.Add(checkBox3);
             groupBox2.Controls.Add(checkBox1);
             groupBox2.Controls.Add(checkBox2);
-            groupBox2.Location = new Point(769, 89);
+            groupBox2.Location = new Point(725, 89);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(250, 171);
             groupBox2.TabIndex = 12;
@@ -281,15 +281,15 @@
             // panel1
             // 
             panel1.Controls.Add(label7);
-            panel1.Location = new Point(580, 327);
+            panel1.Location = new Point(505, 282);
             panel1.Name = "panel1";
-            panel1.Size = new Size(439, 151);
+            panel1.Size = new Size(470, 170);
             panel1.TabIndex = 16;
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(41, 24);
+            label7.Location = new Point(19, 21);
             label7.Name = "label7";
             label7.Size = new Size(50, 20);
             label7.TabIndex = 0;
