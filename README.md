@@ -38,8 +38,14 @@ Este repositorio contiene mis proyectos de la universidad desarrollados en C# us
    - Descripción: Una version mas avanzada que permite agregar nombre, correo, edad, nivel de estudios, intereses y genero. Y agregando manejo de errores como campos vacios o edad invalida.
 
 12. **Formulario de encuesta interactiva**
-   - Descripción: Es un formulario donde recopila innformacino de personas (Nombre, edad), el servicio mas utilizado, nivel de satisfaccion y aspectos a mejorar, asi como un textbox multilinea para las sugerencias. Incluye eventos interactivos como al darle clic a enter en el campo de correo, se envia la encuesta, y el boton de enviar cambia de color al pasar el mouse por encima.
+   - Descripción: Es un formulario donde recopila nformacion de personas (Nombre, edad), el servicio mas utilizado, nivel de satisfaccion y aspectos a mejorar, asi como un textbox multilinea para las sugerencias. Incluye eventos interactivos como al darle clic a enter en el campo de correo, se envia la encuesta, y el boton de enviar cambia de color al pasar el mouse por encima(pendiente).
+
+13. **Papeleria**
+   - Descripcion: Al selecccionar el articulo del comboBox y ingresar tu nombre en el textBox, te aparece un texto con la bienvenida a la papeleria, y aparece el articulo seleccionado de la lista de productos.
 
 14. **Carrito de compras con código de descuento**  
    - Descripción: Simula un carrito de compras donde el usuario puede agregar productos, aplicar un código de descuento y ver el total.
+
+15. **Firma Digital**
+   - Descripcion: Es una sencilla interfaz en la que puedes poner tu firma en la pantalla, tiene la opcion de guardarla, o borrar para volver a hacerla.
      
